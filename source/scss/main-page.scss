@@ -1,0 +1,45 @@
+.main-page {
+  position: relative;
+   background-color: white;
+
+  &::before {
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100%;
+    top: 0;
+    width: calc(50% - 122px);
+    background: url("../img/main-page__bg.jpg") no-repeat;
+    background-size: cover ;
+    background-position: bottom right;
+  }
+}
+
+
+
+/*@media (max-width: $xl) {
+  .main-page::before {
+    width: auto;
+    right: 58%;
+    left: 0;
+  }
+}*/
+
+
+
+.main-page__content {
+  padding-bottom: 185px;
+}
+
+.main-page__head {
+  font-size: 60px;
+  margin-top: 140px;
+  & span {
+    font-weight: 600;
+  }
+}
+
+.main-page__contacts {
+  margin-left: auto;
+  text-align: right;
+}

@@ -1,0 +1,20 @@
+$default-font: "roboto-example", sans-serif;
+$accent: orange;
+$text: #333;
+
+// Customization Bootstrap vars from "app/libs/bootstrap/scss/_variables.scss"
+$grid-gutter-width: 0px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1110px);
+$container-max-widths: (sm: 767px, md: 991px, lg: 1169px, xl: 1110px);
+
+$gutter: $grid-gutter-width;
+
+$xl: map-get($grid-breakpoints, xl);
+$md: map-get($grid-breakpoints, md);
+$lg: map-get($container-max-widths, lg);
+$sm: map-get($container-max-widths, sm);
+
+
+
+

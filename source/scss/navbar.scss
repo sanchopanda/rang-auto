@@ -1,0 +1,39 @@
+
+.navbar{
+    padding: 0;
+    margin-top: 40px;
+  }
+
+
+
+.navbar-brand {
+  font-size: 18px;
+  margin-right: 43px;
+  color: #0c0c0c;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../img/toogle.png");
+  background-size: auto;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.nav-link {
+   color: #0c0c0c;
+   mix-blend-mode: lighten;
+}
+
+
+@media (min-width: $md) {
+  .nav-link {
+    padding: 0 !important;
+    margin: 0;
+  }
+}
+
+
+
+
