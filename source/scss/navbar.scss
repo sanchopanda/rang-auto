@@ -1,8 +1,17 @@
 
-.navbar{
+.navbar,
+.navbar-clon {
     padding: 0;
     margin-top: 40px;
+    align-items: center;
   }
+
+.navbar-white {
+  color: white !important;
+  &:hover {
+    color: #0056b3 !important;
+  }
+}
 
 
 
@@ -21,9 +30,13 @@
   width: 100%;
 }
 
+.navbar-clon__nav {
+  height: 24px;
+  list-style: none;
+}
+
 .nav-link {
    color: #0c0c0c;
-   mix-blend-mode: lighten;
 }
 
 
@@ -31,6 +44,21 @@
   .nav-link {
     padding: 0 !important;
     margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-white {
+    display: none;
+  }
+  .nav-item {
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: $sm) {
+  .navbar {
+    font-size: 12px;
   }
 }
 

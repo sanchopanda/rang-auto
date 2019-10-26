@@ -12,8 +12,9 @@ $gutter: $grid-gutter-width;
 
 $xl: map-get($grid-breakpoints, xl);
 $md: map-get($grid-breakpoints, md);
-$lg: map-get($container-max-widths, lg);
-$sm: map-get($container-max-widths, sm);
+$lg: map-get($grid-breakpoints, lg);
+$sm: map-get($grid-breakpoints, sm);
+
 
 
 
