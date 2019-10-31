@@ -49,5 +49,16 @@
     "del": "^4.1.1",
     "gulp-google-webfonts": "^2.1.0",
     "npm": "^6.9.0"
-  }
+  },
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchopanda/rang-auto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchopanda/rang-auto/issues"
+  },
+  "homepage": "https://github.com/sanchopanda/rang-auto#readme"
 }

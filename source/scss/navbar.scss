@@ -4,21 +4,29 @@
     padding: 0;
     margin-top: 40px;
     align-items: center;
+    width: 100% !important;
   }
+
+  .navbar-brand {
+    font-size: 18px;
+    margin-right: 43px;
+    color: #0c0c0c;
+  }
+
+  .nav-link {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: #0c0c0c;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+ }
 
 .navbar-white {
-  color: white !important;
+  color: white;
   &:hover {
-    color: #0056b3 !important;
+    color: #0056b3;
   }
-}
-
-
-
-.navbar-brand {
-  font-size: 18px;
-  margin-right: 43px;
-  color: #0c0c0c;
 }
 
 .navbar-toggler-icon {
@@ -31,12 +39,8 @@
 }
 
 .navbar-clon__nav {
-  height: 24px;
+  height: 22px;
   list-style: none;
-}
-
-.nav-link {
-   color: #0c0c0c;
 }
 
 

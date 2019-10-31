@@ -1,0 +1,43 @@
+.polishing-page {   
+    background-color: white;
+  }
+
+.polishing-page__header {
+    position: relative;
+}
+
+.polishing-page__bg {
+    position: absolute;
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 25%;
+    background: url("../img/polishing__bg.jpg") no-repeat;
+    background-size: cover ;
+    background-position: bottom right;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.polishing-page__car {
+    position: relative;        
+}
+
+.polishing-page__car-wrap {
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: right;
+    & img {
+        width: 50%;     
+        height: 280px;
+        object-fit: cover;   
+    }
+}
+
+@media (max-width: 767px) {
+    .polishing-page__bg {
+        display: none;
+    }
+
+}
