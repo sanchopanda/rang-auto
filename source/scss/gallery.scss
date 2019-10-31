@@ -46,6 +46,8 @@
   .gallery__img {
     width: 80vw;
     height: 48vw;
+    min-width: 375px;
+    min-height: 185px;
     object-fit: cover;
   }
 
