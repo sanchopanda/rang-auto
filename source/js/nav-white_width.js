@@ -5,9 +5,11 @@ function widthWrapper() {
   var normalw = 0;
   var scrollw = 0;
   normalw = window.innerWidth;
-  scrollw = normalw - b.clientWidth;   
+  scrollw = normalw - b.clientWidth;
 
-  var elem = document.querySelector('.nav-white');
+  var elem = document.querySelectorAll('.page-width');
 
-  elem.style.width = 'calc(' + '100vw - ' + scrollw + 'px)';
+  for (var i = 0; elem.length > i; i++) {
+    elem[i].style.width = 'calc(' + '100vw - ' + scrollw + 'px)';
+  }
 }
