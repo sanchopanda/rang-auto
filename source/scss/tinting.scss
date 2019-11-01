@@ -1,0 +1,55 @@
+.tinting-page {
+    background-color: white;
+}
+
+.tinting-page__header {
+    position: relative;
+}
+
+.tinting-page__bg {
+    position: absolute;
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 25%;
+    background: url("../img/tinting__bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.tinting-page__car {
+    position: relative;
+}
+
+.tinting-page__car-wrap {
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: right;
+    & img {
+        width: 50%;
+        height: 280px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    .tinting-page__bg {
+        display: none;
+    }
+}
+
+@media (max-width: $md) {
+    .tinting-page__car-wrap {
+        position: relative;
+        transform: translateX(-15px);
+        text-align: center;
+        & img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}

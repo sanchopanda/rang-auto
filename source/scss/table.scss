@@ -46,6 +46,9 @@
   }
 
   .table {
-    width: 610px;
+    width: 610px; 
+    & td:last-child {
+      padding-right: 15px !important;
+    }   
   }
 }

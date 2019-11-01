@@ -48,23 +48,21 @@ li {
   margin-top: 60px; 
 }
 
+input,
+textarea,
+button {
+  border: 1px solid #050505 !important;
+  border-radius: 0 !important;
+  &:hover {
+    border: 1px solid #220bce !important;    
+  }
+}
+
+.map {
+  margin-top: 40px;
+}
+
 @media (max-width: $lg) {
-  /*small {    
-    font-size: 12px;
-  }
-
-  h2 {      
-    font-size: 35px;    
-  }
-
-  h3 {   
-    font-size: 20px;    
-  }
-
-  .des {
-    font-size: 16px;    
-  }*/
-
   html {
     font-size: 12px;
   }

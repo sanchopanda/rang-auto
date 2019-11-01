@@ -1,7 +1,38 @@
 .contacts-page__des {
-  font-size: 16px;
-  font-weight: 300;
+  position: relative;
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    background: url("../img/arrow.svg") no-repeat;
+    background-size: 100% 100%;
+    width: 190px;
+    height: 112px;
+    top: 30px;
+    right: 50%;
+  }
 }
+
+@media (max-width: $xl) {
+  .contacts-page__des::after {
+    width: 18%;
+  }
+}
+
+@media (max-width: $lg) {
+  .contacts-page__des::after {
+    height: 93px;
+  }
+}
+
+@media (max-width: $md) {
+  .contacts-page__des::after {
+    display: none;
+  }
+}
+
 
 
 .contacts-page__head {
@@ -9,9 +40,26 @@
 }
 
 .contacts-page__btn {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 400;
   padding: 0;
   text-align: center;
   width: 100%;
+  margin-top: 25px;
+}
+
+.contacts-page__form {
+  font-size: 16px !important;
+  max-width: 500px;
+  margin: auto;
+}
+
+input,
+textarea {
+  margin-top: 25px;
+
+}
+
+.contacts-page__name {
+  margin-top: 15px;
 }
