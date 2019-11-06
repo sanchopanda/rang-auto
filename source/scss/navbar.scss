@@ -45,7 +45,7 @@
     list-style: none;
 }
 
-@media (min-width: $md) {
+@media (min-width: $sm) {
     .nav-link {
         padding: 0 !important;
         margin: 0;
@@ -53,19 +53,16 @@
 }
 
 @media (max-width: 767px) {
-    .nav-white {
-        display: none;
-    }
-    .nav-item {
-        text-transform: uppercase;
+    .nav-link {
+        font-size: 11px;
     }
     .navbar-brand {
-        margin-right: 6px;
+        margin-right: 8px;
     }
 }
 
 @media (max-width: $sm) {
-    .navbar {
+    .nav-link {
         font-size: 12px;
     }
 }
