@@ -1,0 +1,31 @@
+.anti-gravel__header {
+    position: relative;
+}
+
+.anti-gravel__bg {
+    position: absolute;
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 55%;
+    background: url("../img/anti-gravel__bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    overflow: hidden;
+    z-index: 99;
+}
+
+.anti-gravel__head {
+    margin-bottom: 140px;
+}
+
+.anti-gravel__visual {
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .anti-gravel__bg {
+        display: none;
+    }
+}
