@@ -1,0 +1,27 @@
+.blog__head {
+    text-align: left;
+    text-transform: none;
+    margin: 0;
+}
+
+.blog__article {
+    margin-top: 6rem;
+}
+
+.blog__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog__link {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    color: #220bce !important;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    &:hover {
+        color: #0056b3 !important;
+    }
+}
