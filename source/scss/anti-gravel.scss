@@ -1,0 +1,75 @@
+.anti-gravel__bg {
+    width: 55%;
+    background: url("../img/anti-gravel__bg.jpg") no-repeat;
+}
+
+.anti-gravel__head {
+    margin-bottom: 9rem;
+}
+
+.anti-gravel__visual {
+    width: 100%;
+}
+
+.anti-gravel__table {
+    margin-bottom: 6rem;
+}
+
+.anti-gravel__car {
+    position: relative;
+}
+
+.anti-gravel__car-wrap {
+    position: absolute;
+    transform: translateX(-50%);
+    text-align: right;
+    & img {
+        width: 50%;
+        height: 170px;
+        object-fit: cover;
+    }
+}
+
+.anti-gravel__car-wrap--left {
+    position: absolute;
+    text-align: right;
+    padding-right: 30px;
+    right: 0;
+    & img {
+        width: 50%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: $sm) {
+    .anti-gravel__car-wrap {
+        position: relative;
+        transform: translateX(-15px);
+        text-align: center;
+        margin-top: 2rem;
+        & img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    .anti-gravel__car-wrap--left {
+        position: relative;
+        transform: translateX(-15px);
+        text-align: center;
+        margin-top: 2rem;
+        padding-right: 0;
+        & img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}
+
+@media (max-width: $sm) {
+    .anti-gravel__head {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,71 +1,68 @@
-
 .navbar,
 .navbar-clon {
     padding: 0;
     margin-top: 40px;
     align-items: center;
     width: 100% !important;
-  }
+}
 
-  .navbar-brand {
+.navbar-brand {
     font-size: 18px;
-    margin-right: 43px;
+    margin-right: 3rem;
     color: #0c0c0c;
-  }
+}
 
-  .nav-link {
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
     font-family: 'Montserrat', 'Arial', sans-serif;
     color: #0c0c0c;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.1rem;
- }
+    font-size: 1rem;
+    text-align: center;
+}
 
 .navbar-white {
-  color: white;
-  &:hover {
-    color: #0056b3;
-  }
+    color: white;
 }
 
 .navbar-toggler-icon {
-  background-image: url("../img/toogle.png");
-  background-size: auto;
+    background-image: url("../img/toogle.png");
+    background-size: auto;
 }
 
 .navbar-nav {
-  width: 100%;
+    width: 100%;
 }
 
 .navbar-clon__nav {
-  height: 22px;
-  list-style: none;
+    height: 22px;
+    list-style: none;
 }
 
-
-@media (min-width: $md) {
-  .nav-link {
-    padding: 0 !important;
-    margin: 0;
-  }
+@media (min-width: $sm) {
+    .nav-link {
+        padding: 0 !important;
+        margin: 0;
+    }
 }
 
 @media (max-width: 767px) {
-  .nav-white {
-    display: none;
-  }
-  .nav-item {
-    text-transform: uppercase;
-  }
+    .nav-link {
+        font-size: 11px;
+    }
+    .navbar-brand {
+        margin-right: 8px;
+    }
 }
 
 @media (max-width: $sm) {
-  .navbar {
-    font-size: 12px;
-  }
+    .nav-link {
+        font-size: 12px;
+    }
 }
-
-
-
-

@@ -1,61 +1,65 @@
 html {
-  font-family: 'Montserrat', 'Arial', sans-serif;  
-  min-width: 375px;
-  font-size: 14px;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    min-width: 375px;
+    font-size: 14px;
 }
 
+svg {
+    width: 100%;
+    height: 100%;
+}
 
 .container {
-  max-width: 1110px;
-  margin: 0 auto;
-  padding: 0 15px;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-h2 {  
-  margin-top: 60px;
-  text-transform: uppercase;
-  font-size: 2.8rem;
-  font-family: 'Montserrat', 'Arial', sans-serif;
-  font-weight: 200;
-  text-align: center;
+h2 {
+    margin-top: 5rem;
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    font-weight: 200;
+    text-align: center;
 }
 
-h3 {   
-  font-size: 1.9rem;
-  font-family: 'Montserrat Alternates', 'Arial', sans-serif;
-  font-weight: 500;
-  margin-top: 90px;
+h3 {
+    font-size: 1.9rem;
+    font-family: 'Montserrat Alternates', 'Arial', sans-serif;
+    font-weight: 500;
+    margin-top: 90px;
 }
 
 small {
-  font-weight: 400;
-  font-size: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 .des {
-  font-size: 1.3rem;
-  font-family: 'Montserrat Alternates', 'Arial', sans-serif;
-  font-weight: 300; 
-  margin-top: 60px; 
+    font-size: 1.3rem;
+    font-family: 'Montserrat Alternates', 'Arial', sans-serif;
+    font-weight: 300;
+    margin-top: 4rem;
 }
 
 input,
 textarea,
 button {
-  border: 1px solid #050505 !important;
-  border-radius: 0 !important;
-  &:hover {
-    border: 1px solid #220bce !important;    
-  }
+    border: 1px solid #050505 !important;
+    border-radius: 0 !important;
+    &:hover {
+        border: 1px solid #220bce !important;
+    }
 }
 
 .map {
@@ -64,8 +68,7 @@ button {
 }
 
 @media (max-width: $lg) {
-  html {
-    font-size: 12px;
-  }
+    html {
+        font-size: 12px;
+    }
 }
-

@@ -2,22 +2,9 @@
     background-color: white;
 }
 
-.tinting-page__header {
-    position: relative;
-}
-
 .tinting-page__bg {
-    position: absolute;
-    display: block;
-    height: 100%;
-    top: 0;
-    left: 0;
     width: 25%;
     background: url("../img/tinting__bg.jpg") no-repeat;
-    background-size: cover;
-    background-position: bottom right;
-    overflow: hidden;
-    z-index: 99;
 }
 
 .tinting-page__car {

@@ -1,0 +1,21 @@
+.page {
+    position: relative;
+}
+
+.page__bg {
+    position: absolute;
+    display: block;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: bottom right;
+    overflow: hidden;
+    z-index: 99;
+}
+
+@media (max-width: $sm) {
+    .page__bg {
+        display: none;
+    }
+}
