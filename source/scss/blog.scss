@@ -25,3 +25,21 @@
         color: #0056b3 !important;
     }
 }
+
+.blog__img {
+    width: 100%;
+}
+
+.blog__pagination {
+    margin-top: 3rem;
+}
+
+@media (max-width: $md) {
+    .blog__head {
+        text-align: center;
+    }
+    .blog__link {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
