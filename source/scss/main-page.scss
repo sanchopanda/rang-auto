@@ -1,6 +1,8 @@
 .main-page__bg {
-    width: 42%;
+    width: 43%;
     background: url("../img/main-page__bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: right bottom;
 }
 
 .main-page__content {
@@ -22,10 +24,7 @@
         margin: 0 auto;
         padding-bottom: 105px;
     }
-    .main-page__btn {
-        margin-left: auto;
-        margin-right: auto;
-    }
+    
 }
 
 .main-page__head {
@@ -61,6 +60,11 @@
 
 @media (max-width: $sm) {
     .main-page__head {}
+
+    .main-page__btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .main-page__contacts {

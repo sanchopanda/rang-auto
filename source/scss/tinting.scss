@@ -5,6 +5,14 @@
 .tinting-page__bg {
     width: 25%;
     background: url("../img/tinting__bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+@media (min-width: 1300px) {
+    .tinting-page__bg {
+        width: 28%;        
+    }
 }
 
 .tinting-page__car {

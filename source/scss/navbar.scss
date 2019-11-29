@@ -75,7 +75,8 @@
 }
 
 @media (max-width: 767px) {
-    .navbar li a {
+    .navbar li a,
+    .navbar-clon li a {
         font-size: 11px;
     }
     .navbar-brand {
@@ -84,7 +85,7 @@
 }
 
 @media (max-width: $sm) {
-    .nav-link {
-        font-size: 12px;
+    .navbar li a {
+        font-size: 14px;
     }
 }
