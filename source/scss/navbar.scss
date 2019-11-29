@@ -4,6 +4,21 @@
     margin-top: 40px;
     align-items: center;
     width: 100% !important;
+    display: flex;
+}
+
+.navbar ul,
+.navbar-clon ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-header-container {
+    display: flex;
+    width: 100%;
+    & ul {
+        width: 100%;
+    }
 }
 
 .navbar-brand {
@@ -12,12 +27,14 @@
     color: #0c0c0c;
 }
 
-.nav-item {
+.navbar li,
+.navbar-clon li {
     display: flex;
     align-items: center;
 }
 
-.nav-link {
+.navbar li a,
+.navbar-clon li a {
     font-family: 'Montserrat', 'Arial', sans-serif;
     color: #0c0c0c;
     cursor: pointer;
@@ -25,9 +42,14 @@
     font-weight: 600;
     font-size: 1rem;
     text-align: center;
+    &:hover {
+        color: #220bce !important;
+        text-decoration: none;
+    }
 }
 
-.navbar-white {
+.navbar-white,
+.navbar-white li a {
     color: white;
 }
 

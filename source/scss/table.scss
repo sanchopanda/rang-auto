@@ -1,4 +1,8 @@
-.table th {
+table {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+table th {
     border-top: none !important;
     text-align: center;
     padding: 0;
@@ -9,7 +13,7 @@
     }
 }
 
-.table td {
+table td {
     text-align: center;
     font-weight: 400;
     font-size: 1.7rem;
@@ -27,7 +31,7 @@
 }
 
 @media (max-width: $xl) {
-    .table td {
+    table td {
         font-size: 21px;
         &:first-child {
             text-align: left;
@@ -37,7 +41,7 @@
 }
 
 @media (max-width: $lg) {
-    .table td {
+    table td {
         font-size: 18px;
         &:first-child {
             text-align: left;
@@ -47,10 +51,10 @@
 }
 
 @media (max-width: 730px) {
-    .table__wrapper {
+    table__wrapper {
         overflow-x: scroll;
     }
-    .table {
+    table {
         width: 700px;
         & td:last-child {
             padding-right: 15px !important;
