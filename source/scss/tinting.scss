@@ -2,12 +2,21 @@
     background-color: white;
 }
 
-.tinting-page__bg {
+.no-webp .tinting-page__bg,
+.no-js .tinting-page__bg  {
     width: 25%;
-    background: url("../img/tinting__bg.jpg") no-repeat;
+    background: url("../img/tinting__bg.jpg") no-repeat, #250ce4;
+    background-size: cover;
+    background-position: right bottom;
+  }
+
+.webp .tinting-page__bg {
+    width: 25%;
+    background: url("../img/tinting__bg.webp") no-repeat, #250ce4;
     background-size: cover;
     background-position: right bottom;
 }
+
 
 @media (min-width: 1300px) {
     .tinting-page__bg {

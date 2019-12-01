@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="no-js">
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale = 1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <script src="libs/modernizr-webp.js" type="text/javascript"></script>
     <title>Range Auto</title>
 </head>
 
@@ -232,7 +232,12 @@
                         <p>Рекомендуем проводить эти работы на станции технического обслуживания.</p>
                     </div>
                     <div class="page-width polishing-page__car-wrap">
-                        <img src="img/polishing__car.jpg" alt="">
+                            <picture >
+                                <source type="image/webp" srcset="img/polishing__car.webp">
+                                <source type="image/jpeg" srcset="img/polishing__car.jpg">
+                                <img src="img/polishing__car.jpg" alt="polishing__car">
+                            </picture > 
+                        
                     </div>
                 </div>
             </div>

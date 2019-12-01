@@ -1,9 +1,18 @@
-.polishing-page__bg {
+.no-webp .polishing-page__bg,
+.no-js .polishing-page__bg  {
     width: 26%;
-    background: url("../img/polishing__bg.jpg") no-repeat;
+    background: url("../img/polishing__bg.jpg") no-repeat, #af0113;
+    background-size: cover;
+    background-position: right bottom;
+  }
+
+.webp .polishing-page__bg {
+    width: 26%;
+    background: url("../img/polishing__bg.webp") no-repeat, #af0113;
     background-size: cover;
     background-position: right bottom;
 }
+
 
 @media (min-width: 1300px) {
     .polishing-page__bg {
