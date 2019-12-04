@@ -75,7 +75,8 @@
 }
 
 @media (max-width: 767px) {
-    .navbar li a {
+    .navbar li a,
+    .navbar-clon li a {
         font-size: 11px;
     }
     .navbar-brand {
