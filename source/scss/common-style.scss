@@ -1,6 +1,6 @@
 html {
     font-family: 'Montserrat', 'Arial', sans-serif;
-    min-width: 375px;
+    min-width: 320px;
     font-size: 14px;
 }
 
@@ -67,12 +67,18 @@ button {
 }
 
 .map {
-  margin-top: 40px;
-  background-color: #f8f9fa;
+    margin-top: 40px;
+    background-color: #f8f9fa;
 }
 
 @media (max-width: $lg) {
     html {
         font-size: 12px;
+    }
+}
+
+@media (max-width: $sm) {
+    h2 {
+        font-size: 2.1rem;
     }
 }
