@@ -17,20 +17,13 @@
     background-position: right bottom;
 }
 
-
-@media (min-width: 1300px) {
-    .tinting-page__bg {
-        width: 28%;        
-    }
-}
-
 .tinting-page__car {
     position: relative;
 }
 
 .tinting-page__car-wrap {
     position: absolute;
-    transform: translateX(-50%);
+    transform: translateX(calc(-50% - 15px));
     text-align: right;
     & img {
         width: 50%;
@@ -39,21 +32,17 @@
     }
 }
 
+
+@media (min-width: 1300px) {
+    .tinting-page__bg {
+        width: 28%;        
+    }
+
+}
+
 @media (max-width: 767px) {
     .tinting-page__bg {
         display: none;
     }
 }
 
-@media (max-width: $md) {
-    .tinting-page__car-wrap {
-        position: relative;
-        transform: translateX(-15px);
-        text-align: center;
-        & img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-        }
-    }
-}
