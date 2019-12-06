@@ -56,9 +56,6 @@ table td {
 }
 
 @media (max-width: 730px) {
-    table__wrapper {
-        overflow-x: scroll;
-    }
     table {
         width: 700px;
         & td:last-child {
